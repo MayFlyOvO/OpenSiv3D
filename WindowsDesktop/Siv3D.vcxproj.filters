@@ -1738,6 +1738,45 @@
     <Filter Include="include\Siv3D\OpenAI">
       <UniqueIdentifier>{37ac6af4-6c9f-4772-9dee-c6f5ebe74b61}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\ThirdParty\entt">
+      <UniqueIdentifier>{a11af56e-c01d-4173-8844-25070e8da4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\config">
+      <UniqueIdentifier>{7f115422-d301-48b9-ba7e-87bd7fc2e455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\container">
+      <UniqueIdentifier>{7aeec741-fe03-4ea8-8a8a-55a84adf2e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\core">
+      <UniqueIdentifier>{f186e91c-ddc7-4103-b007-604d3febdd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\entity">
+      <UniqueIdentifier>{2b8c840d-ca24-4235-96dc-33f66b6ef315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\graph">
+      <UniqueIdentifier>{1dc5b003-a350-4c73-b68e-4fb5e09f3c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\locator">
+      <UniqueIdentifier>{1610a1b2-6db4-4874-ab6c-720b7711a41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\meta">
+      <UniqueIdentifier>{35b72a48-a377-4fff-8759-3f386c74e697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\platform">
+      <UniqueIdentifier>{1f44b685-0948-4eaa-848b-ad1c876a2473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\poly">
+      <UniqueIdentifier>{f6fb3649-88c3-4b6b-854d-35d00e9c4804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\process">
+      <UniqueIdentifier>{bbac066c-0a91-49bc-ba94-e759dec66df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\resource">
+      <UniqueIdentifier>{0b70a49b-0df3-4788-a256-57b6a91c3197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ThirdParty\entt\signal">
+      <UniqueIdentifier>{81b319c3-aff3-4a2a-ae51-931b8317c814}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Siv3D\include\Siv3D.hpp">
@@ -7841,6 +7880,231 @@
     </ClInclude>
     <ClInclude Include="..\Siv3D\src\Siv3D\Shader\EngineShader.hpp">
       <Filter>src\Siv3D\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Siv3D\include\ThirdParty\entt\entt.hpp">
+      <Filter>include\ThirdParty\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Siv3D\include\Siv3D\ECS.hpp">
+      <Filter>include\Siv3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\config\macro.h">
+      <Filter>include\ThirdParty\entt\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\config\version.h">
+      <Filter>include\ThirdParty\entt\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\config\config.h">
+      <Filter>include\ThirdParty\entt\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\container\dense_map.hpp">
+      <Filter>include\ThirdParty\entt\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\container\dense_set.hpp">
+      <Filter>include\ThirdParty\entt\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\container\fwd.hpp">
+      <Filter>include\ThirdParty\entt\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\ident.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\iterator.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\memory.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\monostate.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\tuple.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\type_info.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\type_traits.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\utility.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\algorithm.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\any.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\attribute.h">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\compressed_pair.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\enum.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\family.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\fwd.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\core\hashed_string.hpp">
+      <Filter>include\ThirdParty\entt\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\runtime_view.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\snapshot.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\sparse_set.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\storage.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\view.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\component.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\entity.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\fwd.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\group.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\handle.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\helper.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\mixin.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\observer.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\organizer.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\entity\registry.hpp">
+      <Filter>include\ThirdParty\entt\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\graph\flow.hpp">
+      <Filter>include\ThirdParty\entt\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\graph\fwd.hpp">
+      <Filter>include\ThirdParty\entt\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\graph\adjacency_matrix.hpp">
+      <Filter>include\ThirdParty\entt\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\graph\dot.hpp">
+      <Filter>include\ThirdParty\entt\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\locator\locator.hpp">
+      <Filter>include\ThirdParty\entt\locator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\pointer.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\policy.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\range.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\resolve.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\template.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\type_traits.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\utility.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\adl_pointer.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\container.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\context.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\factory.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\fwd.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\meta.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\meta\node.hpp">
+      <Filter>include\ThirdParty\entt\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\platform\android-ndk-r17.hpp">
+      <Filter>include\ThirdParty\entt\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\poly\poly.hpp">
+      <Filter>include\ThirdParty\entt\poly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\poly\fwd.hpp">
+      <Filter>include\ThirdParty\entt\poly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\process\process.hpp">
+      <Filter>include\ThirdParty\entt\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\process\scheduler.hpp">
+      <Filter>include\ThirdParty\entt\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\process\fwd.hpp">
+      <Filter>include\ThirdParty\entt\process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\resource\fwd.hpp">
+      <Filter>include\ThirdParty\entt\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\resource\loader.hpp">
+      <Filter>include\ThirdParty\entt\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\resource\resource.hpp">
+      <Filter>include\ThirdParty\entt\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\resource\cache.hpp">
+      <Filter>include\ThirdParty\entt\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\signal\emitter.hpp">
+      <Filter>include\ThirdParty\entt\signal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\signal\fwd.hpp">
+      <Filter>include\ThirdParty\entt\signal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\signal\sigh.hpp">
+      <Filter>include\ThirdParty\entt\signal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\signal\delegate.hpp">
+      <Filter>include\ThirdParty\entt\signal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\signal\dispatcher.hpp">
+      <Filter>include\ThirdParty\entt\signal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\entt\src\entt\fwd.hpp">
+      <Filter>include\ThirdParty\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Siv3D\include\Siv3D\detail\ECS.ipp">
+      <Filter>include\Siv3D\detail</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

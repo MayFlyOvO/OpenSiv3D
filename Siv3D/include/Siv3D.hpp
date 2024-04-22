@@ -117,6 +117,9 @@
 // SIMD | SIMD
 # include <Siv3D/SIMD.hpp>
 
+// ECS | ECS
+# include <Siv3D/ECS.hpp>
+
 //////////////////////////////////////////////////
 //
 //	メモリ | Memory
