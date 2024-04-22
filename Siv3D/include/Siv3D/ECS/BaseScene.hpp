@@ -22,16 +22,19 @@ namespace s3d {
 			using IScene = IScene<State, Data>;
 
 			BaseScene(const InitData& init)
-				: IScene{ init } {}
+				: IScene{ init } 
+			{
+				m_registry = std::make_shared<Registry>();
+			}
 
 			virtual ~BaseScene() {};
 		protected:
 			[[nodiscard]] decltype(auto) createEntity()
 			{
-				Entity newEntity = m_registry.create();
+				Entity newEntity{ m_registry, m_registry->create() };
 
 				// Add TransformComponent by default
-				newEntity.addComponent<TransformComponent>(m_registry);
+				newEntity.addComponent<TransformComponent>();
 
 				return newEntity;
 			}
@@ -47,7 +50,7 @@ namespace s3d {
 			}
 
 		protected:
-			Registry m_registry;
+			std::shared_ptr<Registry> m_registry;
 		private:
 
 		};

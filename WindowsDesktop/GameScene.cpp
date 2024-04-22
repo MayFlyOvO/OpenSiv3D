@@ -10,13 +10,10 @@ GameScene::GameScene(const InitData& init)
 {
 	m_mainCamera = createEntity();
 	{
-		auto& transform = m_mainCamera.getComponent<ECS::TransformComponent>(
-			m_registry
-		);
+		auto& transform = m_mainCamera.getComponent<ECS::TransformComponent>();
 		transform.position = Vec3{ 10, 16, -32 };
 
 		auto& rt = m_mainCamera.addComponent<TextureComponent>(
-			m_registry,
 			std::make_shared<MSRenderTexture>(
 				Scene::Size(),
 				TextureFormat::R8G8B8A8_Unorm_SRGB,
@@ -25,7 +22,6 @@ GameScene::GameScene(const InitData& init)
 		);
 
 		auto& camera = m_mainCamera.addComponent<Camera3DComponent>(
-			m_registry,
 			std::make_shared<DebugCamera3D>(
 				Scene::Size(),
 				30_deg,
@@ -58,7 +54,7 @@ void GameScene::update()
 {
 	// Update main camera
 	{
-		auto mainCam = std::dynamic_pointer_cast<DebugCamera3D>(m_mainCamera.getComponent<Camera3DComponent>(m_registry).camera3D);
+		auto mainCam = std::dynamic_pointer_cast<DebugCamera3D>(m_mainCamera.getComponent<Camera3DComponent>().camera3D);
 
 		mainCam->update(2.0);
 	}
@@ -66,8 +62,8 @@ void GameScene::update()
 
 void GameScene::draw() const
 {
-	auto mainCam = std::dynamic_pointer_cast<DebugCamera3D>(m_mainCamera.getComponent<Camera3DComponent>(m_registry).camera3D);
-	auto mainRT = std::dynamic_pointer_cast<MSRenderTexture>(m_mainCamera.getComponent<TextureComponent>(m_registry).texture);
+	auto mainCam = std::dynamic_pointer_cast<DebugCamera3D>(m_mainCamera.getComponent<Camera3DComponent>().camera3D);
+	auto mainRT = std::dynamic_pointer_cast<MSRenderTexture>(m_mainCamera.getComponent<TextureComponent>().texture);
 
 	{
 		const ScopedRenderTarget3D target{ mainRT->clear(SKY_COLOR) };
